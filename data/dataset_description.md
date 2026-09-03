@@ -181,13 +181,6 @@ notebooks read**; filter on `status == "ok"`. 62 columns on npm, 48 on PyPI, 41 
 the Maven file carries no dependents columns; notebook 01 reads the global counts from
 `top_packages.csv` instead.
 
-### Unused files
-
-- `labeled_packages.csv` (npm only, 5,686 rows: `package`,`version`,`label`) and
-  `vulnerable_versions.csv` (npm 3,201 / pypi 1,766 rows: `package`,`version`,`status`) —
-  not produced or read by any script or notebook; `labeled_packages.csv` is inconsistent
-  with `dataset.csv` (822 clean rows).
-
 ### `README.md`
 Per-ecosystem provenance notes: which script produced each file, ecosystem-specific
 field mappings, and caveats.
