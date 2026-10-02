@@ -7,12 +7,14 @@ detectors, temporal validation, and a 2026 case study.
 
 ## Getting the data
 
-The data folder is too large for this repository, so it lives [here](https://drive.google.com/file/d/1_mNesuBrAO_XvFmDVeOtUMXW_c8qFA_g/view?usp=sharing). 
+The data folder is too large for this repository, so it lives [here](https://drive.google.com/file/d/1HAI80FEYCMqfjY6sUeso20VoIx_SvtJS/view?usp=sharing). 
 
 
 
-Download and unzip it into the repository root so that `data/input/<eco>/` sits next to
+Download and unzip with 7z into the repository root so that `data/input/<eco>/` sits next to
 `notebooks/`. Everything below refers to the files in that folder.
+
+Password: isotlab62
 
 ## Running the experiments
 
